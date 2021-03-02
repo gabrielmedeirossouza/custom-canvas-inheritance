@@ -16,7 +16,7 @@ import LineCoord from './LineCoord.js'
  * @param {number} width - is the width size of the canvas HTML element
  * @param {number} height - is similiar to the item above, with the only difference being the height size
  *
- * @returns {function} functions for manipulate the canvas
+ * @returns {function} functions with native (context) and custom (custom functions) for manipulate the canvas
  */
 export default function Canvas ({ canvasElement, width = window.innerWidth, height = window.innerHeight }) {
   const canvas = document.getElementsByClassName(canvasElement)[0]

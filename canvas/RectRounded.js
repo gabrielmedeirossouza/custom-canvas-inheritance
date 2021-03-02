@@ -8,7 +8,6 @@
  * @param {number} width - horizontal size
  * @param {number} height - vertical size
  * @param {number} rounded - border radius !most be less than the lowest value of width and height!
- * @param {object} params - accepts the basics methods of canvas, like: fillStyle
 */
 function DrawRectRounded (x, y, width, height, rounded) {
   const halfRadians = (2 * Math.PI) / 2
