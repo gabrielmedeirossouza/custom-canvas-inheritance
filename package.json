@@ -1,0 +1,12 @@
+{
+  "name": "canvas-helper",
+  "version": "1.0.0",
+  "description": "Helper plugin for manipulate the canvas - CanvasRenderingContext2D",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browser-sync --serve . --files .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Medeiros Souza",
+  "license": "ISC"
+}
